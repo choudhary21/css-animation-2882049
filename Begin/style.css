@@ -1,10 +1,21 @@
 
-.cloud01 {
 
+.cloud01 {
+animation: float 25s linear infinite;
 }
 
 .cloud02 {
-  
+  animation: float 30s 5s linear infinite backwards;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(-150px);
+  }
+
+  100% {
+    transform: translate(820px);
+  }
 }
 
 
@@ -14,7 +25,7 @@ body {
   margin:0;
   padding:0;
 }
-
+ 
 .wrap {
   width: 800px;
   height: 650px;
