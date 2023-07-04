@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap");
 
-
-@keyframes blinking {
-  0%, 100% {
-    border-color: transparent;
+@keyframes scaleIn {
+  0% {
+    scale: 0.2;
   }
-  50% {
-    border-color: #CE2D4F;
-    }
+
+  85% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
+  }
 }
 
 h2 {
@@ -21,9 +25,14 @@ h2 {
   animation-fill-mode: backwards;
 }
 
-body {
-  padding-top: 5em;
-  background: #cfcfcf;
+.wrap {
   display: flex;
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #433F55;
+  margin: 0;
 }
