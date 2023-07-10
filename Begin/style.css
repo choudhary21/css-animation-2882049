@@ -39,7 +39,7 @@ p:nth-of-type(2) {
   --delay: .5s;
   --ease: cubic-bezier(.34, 1.56, .64, 1);
   --scale:1.5;
-  --dist: 30%;2
+  --dist: 30%;
   --deg: 20deg;
   color: #59C3C3;
 }
